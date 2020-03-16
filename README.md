@@ -19,3 +19,13 @@ Dependent vatiable is:
 1. rate of degree of cure
 
 A parametric prior is 
+
+\begin{itemize}
+\item $T = T(x, t)$ is the temperature (K);
+\item $t$ is time (s);
+\item $\rho$ is density ($Kg/m^3$);
+\item $C_p$ is specific heat capacity (J/K);
+\item $k$ is thermal conductivity (W/(m*K));
+\item $\dot{Q} = \dot{Q}(t)$ is heat generation within composite (W);
+\item $\alpha = \alpha(t) = \frac{k}{\rho\, C_p}$ is thermal diffusivity.
+\end{itemize}
