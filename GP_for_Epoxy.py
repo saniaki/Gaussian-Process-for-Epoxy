@@ -284,5 +284,18 @@ plt.ylabel('Rate of cure')
 
 
 
+plt.subplot(111)
+plt.scatter(np.array([i[0] for i in x2]), np.diag(posterior_var2), color='blue', s = 20, alpha = 0.5, label='sample data')
+plt.ylim(-0.1, max(np.diag(posterior_var2)))
+plt.xlabel('Temp')
+plt.ylabel('Variance')
+
+
+plt.subplot(111)
+plt.scatter(np.array([i[1] for i in x2]), np.diag(posterior_var2), color='blue', s = 20, alpha = 0.5, label='sample data')
+plt.ylim(-0.1, max(np.diag(posterior_var2)))
+plt.xlabel('Temp')
+plt.ylabel('Variance')
+
 
 
