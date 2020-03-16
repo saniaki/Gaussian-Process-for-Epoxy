@@ -15,21 +15,22 @@ n = 100 # number of data points
 test_size = 0.3 # test data size ratio
 Type = 'ConstRate' # Iso, ConstRate, OneHold
 
+
+ts = 0 # start time, min
+te = 90 # end time, min
+
 # Isothermal
 T_iso = 140+273 # Temp for isotermal process
 
 # Dynamic _ Constant Rate
-ts = 0 # start time, min
-te = 90 # end time, min
 Tr = 3 # Temp rate for dynamic process, K/min
 Ts = 293 # start temp, K
 
 # Dynamic _ One Hold
-#ts = 0 # start time, min
-#th1 = 52 # hold start time, min
-#th2 = 172 # hold end time, min
-#Ts = 293 # start temp, K
-#Th = 453 # hold temp, K
+th1 = 52 # hold start time, min
+th2 = 172 # hold end time, min
+Tsh = 293 # start temp, K
+Th = 453 # hold temp, K
 
 
 ''' Functions '''
@@ -39,11 +40,11 @@ def Temp_constrate(t,T_start,T_rate):
     return Temp 
 
 # Temperature function, Dynamic _ One Hold
-def Temp_onehold(t,th1,th2,Ts,Th):
-    T_rate = (Th-Ts) / th1
+def Temp_onehold(t,th1,th2,Tsh,Th):
+    T_rate = (Th-Tsh) / th1
     
     if t < th1:
-        Temp = t*T_rate + Ts
+        Temp = t*T_rate + Tsh
     elif t > th2:
          Temp = -(t-th2)*T_rate + Th
     else:
