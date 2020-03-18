@@ -254,7 +254,7 @@ plt.subplot(111)
 plt.scatter(np.array([i[0] for i in x2]), posterior_mean2, color='blue', s = 20, alpha = 0.5, label='sample data')
 plt.scatter(np.array([i[0] for i in x1]), y1, color='red', s = 20, alpha = 0.5)
 plt.fill_between(np.sort(np.array([i[0] for i in x2])), posterior_mean2_srt - np.diagonal(posterior_var2), posterior_mean2_srt +  np.diagonal(posterior_var2), alpha=0.2, color='k')
-plt.ylim(min(y1,posterior_mean2), max(y1,posterior_mean2))
+plt.ylim(min(min(y1),min(posterior_mean2)), max(max(y1),max(posterior_mean2)))
 plt.xlabel('Temp')
 plt.ylabel('log of rate of cure')
 
