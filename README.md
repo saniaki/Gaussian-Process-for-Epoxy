@@ -1,6 +1,6 @@
 # Gaussian Process for 3501-6 Epoxy Resin
 
-The degree of cure mean value and variance is predicted at test points using Gaussian process and some trianing data (from material model).
+The rate degree of cure mean value and variance is predicted at test points using Gaussian process and some trianing data (from material model).
 
 
 The method is presented in the following paper for non-parametric models:
@@ -19,3 +19,13 @@ Independent variabes are:
 
 Dependent variable is:
 1. rate of degree of cure
+
+
+Rate of degree of cure mean value predictions
+<p align="center">
+<img  align="center" src="https://github.com/saniaki/Sequential_PINN/blob/main/README_Images/Figure_01.png" width="500"/>
+  
+  
+  Rate of degree of cure variance predictions
+<p align="center">
+<img  align="center" src="https://github.com/saniaki/Sequential_PINN/blob/main/README_Images/Figure_01.png" width="500"/>
