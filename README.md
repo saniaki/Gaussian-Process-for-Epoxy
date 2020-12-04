@@ -1,5 +1,4 @@
-# Gaussian-Process-for-Epoxy
-Gaussian Process 3501-6 Epoxy Material Model
+# Gaussian Process for 3501-6 Epoxy Resin
 
 The degree of cure mean value and variance is predicted at test points using Gaussian process and some trianing data (from material model).
 
