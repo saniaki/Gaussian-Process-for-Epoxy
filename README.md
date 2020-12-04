@@ -1,9 +1,11 @@
 # Gaussian-Process-for-Epoxy
-Gaussian Process in Python for 3501-6 Epoxy Material Model
+Gaussian Process 3501-6 Epoxy Material Model
 
-Same method is presented in following paer for non-parametric models is used here:
+The degree of cure mean value and variance is predicted at test points using Gaussian process and some trianing data (from material model).
 
- [1] Uncertinty Qualification of Material Models for Process Simulation, Fernlund et al., 2020, International SAMPE Technical Conference
+
+The method is presented in the following paper for non-parametric models:
+  [1] Uncertinty Qualification of Material Models for Process Simulation, Fernlund et al., 2020, International SAMPE Technical Conference
 
 Three temperature cycle can be considered: 
   
