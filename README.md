@@ -23,9 +23,9 @@ Dependent variable is:
 
 Rate of degree of cure mean value predictions
 <p align="center">
-<img  align="center" src="https://github.com/saniaki/Sequential_PINN/blob/main/README_Images/Figure_01.png" width="500"/>
+<img  align="center" src="https://github.com/saniaki/Gaussian-Process-for-Epoxy/blob/master/images/rod_mean.jpg" width="500"/>
   
   
   Rate of degree of cure variance predictions
 <p align="center">
-<img  align="center" src="https://github.com/saniaki/Sequential_PINN/blob/main/README_Images/Figure_01.png" width="500"/>
+<img  align="center" src="https://github.com/saniaki/Gaussian-Process-for-Epoxy/blob/master/images/rod_variance.jpg" width="500"/>
