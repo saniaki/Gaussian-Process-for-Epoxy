@@ -3,7 +3,7 @@
 The rate degree of cure mean value and variance is predicted at test points using Gaussian process and some trianing data (from material model).
 
 
-The method is presented in the following paper for non-parametric models:
+The method is presented in the following paper for non-parametric models: <br>
   [1] Uncertinty Qualification of Material Models for Process Simulation, Fernlund et al., 2020, International SAMPE Technical Conference
 
 Three temperature cycle can be considered: 
