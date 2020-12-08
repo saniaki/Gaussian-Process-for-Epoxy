@@ -4,7 +4,7 @@ The rate degree of cure mean value and variance is predicted at test points usin
 
 
 The method is presented in the following paper for non-parametric models: <br>
-Uncertinty Qualification of Material Models for Process Simulation, O. Fernlund et al., (2020) SAMPE VIRTUAL SERIES https://www.nasampe.org/page/2020VirtualSeries <br> 
+O. Fernlund et al., "Uncertinty Qualification of Material Models for Process Simulation" (2020) SAMPE VIRTUAL SERIES https://www.nasampe.org/page/2020VirtualSeries <br> 
 
 Three temperature cycle can be considered: 
   
